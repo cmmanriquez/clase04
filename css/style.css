@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.violeta__principal{
+    color: #7735bd;
+}
+.verde__principal{
+    color: #188c84;
+}
+.para__roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.para__roboto-serif{
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+
+/* header */
+/* header nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+    
+} */
+header nav ul li a{
+    color: #188c84;
+    text-decoration: none;
+    font-family: 'Roboto Serif', sans-serif;
+}
+header nav img{
+    margin: 12px 0 0 10px;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+    background-color: #7735bd;
+}
+/* main */
+
+/* cat cafés */
+.container__catCafes-btn{
+    color: #7735bd;
+    font-size: 16px;
+    border: 2px solid #188c84;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px;
+}
+.container__catCafes-titulo{
+    font-size: 30px;
+}
+
+/* footer */
+.pie__texto{
+    font-size: 50px;
+    background-color: #c39dec;
+    width: 25%;
+    height: 400px;
+
+    /* overflow */
+overflow: hidden;
+}
+.footer__iconos{
+    font-size: 26px;
+    color: #7735bd;
+}
+footer{
+    background-color: #dcc4f5;
+}
+
+/* whatsapp */
+.whatsapp{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+}
+.whatsapp__icono{
+    font-size: 100px;
+    color: #188c84;
+    
+}
+
+/* submenú */
+ul {
+    list-style: none;
+    font-size:0;
+}
+ li {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    font-size: 14px
+}
+ ul ul {
+    position: absolute;
+    display: none;
+ }
+ ul ul li {
+    display: block;
+ }
+ul li:hover ul {
+    display:block;
+}
+
